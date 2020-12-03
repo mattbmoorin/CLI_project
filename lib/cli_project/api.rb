@@ -1,5 +1,4 @@
 class API
-
     def self.get_info(target)
         key = ENV["SHODAN_API_KEY"]
         
@@ -14,7 +13,7 @@ class API
         url = "https://api.shodan.io/shodan/host/#{target}?key=#{key}" 
         response = HTTParty.get(url)
         
-        name = target   # <==== Why isn't name equal to target in pry? It's coming back nil
+        name = target 
         
         hash = {
             organization: response["org"],
@@ -22,8 +21,7 @@ class API
             hostnames: response["hostnames"],
             ports: response["ports"]
         }
-
-        ip_detect = IpDetective.new(name, hash)
-        binding.pry
+        
+        IpDetective.new(name, hash)
     end
 end

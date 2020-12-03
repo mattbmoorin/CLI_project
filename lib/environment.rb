@@ -8,4 +8,3 @@ require "httparty"
 require "shodanz"
 require "ipaddress"
 require "dotenv/load"
-
