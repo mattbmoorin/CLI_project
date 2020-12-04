@@ -12,5 +12,3 @@ class IpDetective
         @@all
     end
 end
-
-

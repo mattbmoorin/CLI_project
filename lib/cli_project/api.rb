@@ -3,7 +3,8 @@ class API
         key = ENV["SHODAN_API_KEY"]
         
         until IPAddress.valid?(target) == true
-            puts "Invalid IP, please enter a vaild IPv4 address..." # <==== Refactor this until? Seems pretty clean to me :^B
+            puts "Invalid IP, please enter a vaild IPv4 address..."
+            
             target = gets.strip
         end
         
