@@ -40,7 +40,7 @@ TODO:
 
 * Add more functionality to the 'Show History' option
 
-* Integrate the brilliant Shodanz gem ()
+* Integrate the brilliant Shodanz gem (https://github.com/picatz/shodanz)
 
 # CONTRIBUTING
 
