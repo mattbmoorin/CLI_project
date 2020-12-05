@@ -1,4 +1,4 @@
-<img src = "https://yubikwetes.files.wordpress.com/2015/05/neighborhood-watch.gif"/>
+<img src = "https://yubikwetes.files.wordpress.com/2015/05/neighborhood-watch.gif" height = "250" width = "270"/>
 
 # IP-DETECTIVE
 
