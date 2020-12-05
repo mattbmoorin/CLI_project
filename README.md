@@ -2,7 +2,7 @@
 
 # IP-DETECTIVE
 
-> A simple CLI app using the Shodan API to return information pertaining to one's target IP address.
+A simple CLI app using the Shodan API to return information pertaining to one's target IP address.
 
 ## Get Started...
 
