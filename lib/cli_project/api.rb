@@ -4,7 +4,6 @@ class API
         
         until IPAddress.valid?(target) == true
             puts "Invalid IP, please enter a vaild IPv4 address..."
-            
             target = gets.strip
         end
         

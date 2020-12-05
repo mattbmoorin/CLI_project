@@ -22,7 +22,7 @@ class Title
     end
 
     def self.next_display
-        name = IpDetective.all[0].name
+        name = IpDetective.all[-1].name
         puts "                                     "
         puts "What would you like to know about: #{name} ?"
         puts "                                     "
