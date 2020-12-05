@@ -1,14 +1,46 @@
-# IPDETECTIVE
+<img src = "https://yubikwetes.files.wordpress.com/2015/05/neighborhood-watch.gif"/>
 
-A simple CLI app using the Shodan API to return information pertaining to the target IP address.
+# IP-DETECTIVE
 
-To use this on your machine you will need your own Shodan API Key.
+> A simple CLI app using the Shodan API to return information pertaining to one's target IP address.
 
-After cloning the repo, run bundle install, insert your Key using API.rb and start the program using the run file.
+## Get Started...
 
-For now, the first "level" of data retrieval is a list of items related to the target IP address.
+> To use this on your machine you will need your own Shodan API Key.
 
-Select an item from the list using the on-screen instructions to advance to the 2nd level of data.
+Repo: 
+> https://github.com/mattbmoorin/IP-DETECTIVE/blob/master/README.md
+
+Next, run
+
+```
+bundle install
+```
+
+Insert your Key into API.rb
+
+Now, run the app using
+
+```
+bin/run
+```
+
+Entering a valid IPv4 address generates a list of items related to it.
+
+Select an item from the list using the on-screen instructions to display the 2nd level of data.
+
+> Please note, not all IPs will return values for every attribute, in which case nothing is displayed when
+the item in question is selected.
+
+TODO:
+
+* Add more attributes to the list
+
+* Add a 3rd level of information for attributes that support it
+
+* Add more functionality to the 'Show History' option
+
+* Integrate the brilliant Shodanz gem ()
 
 # CONTRIBUTING
 
