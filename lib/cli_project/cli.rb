@@ -7,7 +7,6 @@ class CLI
     end
     
     def display_info
-        
         Title.next_display
         @show_info = IpDetective.all[-1]
         
