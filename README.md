@@ -8,11 +8,6 @@ A simple CLI app using the Shodan API to return information pertaining to one's 
 
 > To use this on your machine you will need your own Shodan API Key.
 
-Repo: 
-> https://github.com/mattbmoorin/IP-DETECTIVE/blob/master/README.md
-
-Next, run
-
 ```
 bundle install
 ```
